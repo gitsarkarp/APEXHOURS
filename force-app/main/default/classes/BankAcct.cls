@@ -10,4 +10,8 @@ public class BankAcct {
     public integer getBalance(){
         return balance;
     }
+
+    public void printBalance(){
+        system.debug('Balance - ' + balance);
+    }
 }
